@@ -1,0 +1,12 @@
+1 pom.xml中spring配置文件最简单话
+  spring-context
+  
+2 使用ClassPathXmlApplicationContext启动容器并加载配置
+
+3 多个配置文件使用import引入配置文件
+
+4 外部的属性文件有两种方式引入：  
+   一：使用PropertyPlaceholderConfigurer引入配置文件
+   二：使用context:property-placeholder标签引入配置文件
+   
+5 配置属性文件中的属性使用${}美元符号进行引用
